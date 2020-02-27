@@ -203,7 +203,11 @@ body {
     padding: 0 0.9em;
     width: 46.6%;
 }
-
+/* BEGIN Table of Contents */
+li.flc-toc-levels-items1 li.flc-toc-levels-items2 li.flc-toc-levels-items3 li.flc-toc-levels-items4 {
+    border-top: 8px;
+    border-bottom: 8px;
+}
 /* BEGIN The grid of featured work */
 .floe-featured-list {
     list-style: none outside none;
