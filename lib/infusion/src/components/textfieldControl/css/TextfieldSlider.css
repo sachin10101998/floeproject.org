@@ -32,7 +32,7 @@ http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.htm
 .fl-textfieldSlider input[type=range].fl-slider::-webkit-slider-runnable-track {
   height: 1rem;
   cursor: pointer;
-  animation: 0.2s;
+  animate: 0.2s;
   background: #dad6d3;
   border-radius: 0.3rem;
   border: 1px solid #b3b3b3;
@@ -53,7 +53,7 @@ http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.htm
 .fl-textfieldSlider input[type=range].fl-slider::-moz-range-track {
   height: 1rem;
   cursor: pointer;
-  animation: 0.2s;
+  animate: 0.2s;
   background: #dad6d3;
   border-radius: 0.3rem;
   border: 1px solid #b3b3b3;
@@ -71,7 +71,7 @@ http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.htm
 /* ms browsers */
 .fl-textfieldSlider input[type=range].fl-slider::-ms-track {
   height: 1rem;
-  animation: 0.2s;
+  animate: 0.2s;
   background: transparent;
   border-color: transparent;
   border-width: 0.5rem 0;
